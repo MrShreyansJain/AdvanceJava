@@ -49,7 +49,9 @@ public class IntermediateLevelSolution {
                 .limit(3).collect(Collectors.toList());
         System.out.println("Top 3 Values : "+ topThreeValues);
 
-        //Partition list based on condition
+        //Find duplicate elements in the list
+        List<Integer> myList= Arrays.asList(1,2,2,5,5,9,3,6,9);
+
 
     }
     public static void stringListStream(){
